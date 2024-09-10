@@ -1,0 +1,113 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    width: 1519px;
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 80px 900px 900px 800px 900px 900px 200px;
+}
+/* menu div is start */
+
+.Menu {
+    
+    display: flex;
+    justify-content: space-between; /* Distribute space between the image/text and menu */
+    align-items: center; /* Align items vertically centered */
+    padding: 0 20px; /* Add some padding to the sides */
+}
+
+.imagemenu {
+    display: flex;
+    align-items: center; /* Align the image and text vertically centered */
+}
+
+.menuimage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px; /* Space between the image and text */
+    
+}
+
+.menuename {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the menu items in a row */
+}
+
+li {
+    margin-left: 20px; /* Space between each menu item */
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px; /* Adjust padding if needed */
+    font-size: 20px;
+}
+/* Menu div is end */
+
+/* introduction */
+.introduction {
+   background-color: black;
+   
+}
+.introfirstdiv{
+    background-color: white;
+    width: 700px;
+    height: 750px;
+    float:left ;
+    margin: 20px 20px;
+}
+.introfirstp{
+    
+    font-size: 14px;
+    font-family: var(--font-secondary);
+    color: var(--color-lightn);
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   font-weight: 500;
+   margin-top: 120px;
+   margin-left: 80px;
+}
+.introseconddiv{ 
+    background-color:olivedrab;
+    width: 700px;
+    height: 750px;
+    float: right;
+ margin: 20px 20px;
+}
+
+
+
+
+/* introduction */
+.Features {
+    background-color: aquamarine;
+}
+
+.Portfolio {
+    background-color: bisque;
+}
+
+.Resume {
+    background-color: rgb(221, 205, 255);
+}
+
+.Contact {
+    background-color: black;
+}
+
+.footer {
+    background-color: grey;
+}
