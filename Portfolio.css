@@ -94,7 +94,58 @@ li a {
 /* introduction */
 .Features {
     background-color: aquamarine;
-}
+  }
+  .container1, .container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .box {
+    background-color: #2a2a2f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    position: relative;
+  }
+  
+  .icon {
+    font-size: 40px;
+    color: #ff3366; /* Icon color */
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .read-more {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #ff3366;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .read-more:hover {
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+    
+  }
 
 .Portfolio {
     background-color: bisque;
